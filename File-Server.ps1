@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName hclus01,hclus02,hclus03,hclus04 -ScriptBlock { Install-WindowsFeature FS-FileServer -IncludeAllSubFeature -IncludeManagementTools }
